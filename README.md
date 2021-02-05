@@ -7,7 +7,7 @@
 **Dependencies**
 -  [NodeJS](https://nodejs.org/en/)
 -  [ngrok](https://ngrok.com/) or equivalent tunneling solution
--  [M365 developer account](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant) or access to a Teams account with the appropriate permissions to install an app.
+-  [M365 developer account](https://docs.microsoft.com/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant?WT.mc_id=m365-0000-rabwill) or access to a Teams account with the appropriate permissions to install an app.
 
 **Configure Ngrok**
 
@@ -27,7 +27,7 @@ Run ngrok - point to port 3978
 
 - Click on the *Bot* menu item from the toolkit and select the bot you are using for this project.  Update the messaging endpoint and press enter to save the value in the Bot Framework.
 
-- Ensure that you've [enabled the Teams Channel](https://docs.microsoft.com/en-us/azure/bot-service/channel-connect-teams?view=azure-bot-service-4.0)
+- Ensure that you've [enabled the Teams Channel](https://docs.microsoft.com/azure/bot-service/channel-connect-teams?view=azure-bot-service-4.0&WT.mc_id=m365-0000-rabwill)
 
 ## Build and run
 
@@ -44,7 +44,7 @@ Installs the required packages to run the tab.
 
 **Development account**
 
-Ensure you have access to a Teams account with the appropriate permissions to install an app. If this is your first time developing a Teams app, go through each of the steps in the [Prepare your Office 365 tenant](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant) page.
+Ensure you have access to a Teams account with the appropriate permissions to install an app. If this is your first time developing a Teams app, go through each of the steps in the [Prepare your Office 365 tenant](https://docs.microsoft.com/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant?WT.mc_id=m365-0000-rabwill) page.
 
 Upload the `development.zip` from the *.publish* folder to Teams (in the Apps view click [Upload a custom app](https://aka.ms/VSTeamsExtensionSideloadApp)
 
